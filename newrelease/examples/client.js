@@ -15,6 +15,8 @@ client.send(message, (err) => {
     console.error(new Error(err));
   }
   client.close();
+
+  
 });
 
 // or
